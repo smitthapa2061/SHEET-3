@@ -18,7 +18,7 @@ function Controller() {
   const [loading, setLoading] = useState(true); // Tracks the initial load state
 
   const apiKey = "AIzaSyAyX4Qmr0UqPpab1mzGvOQbi2am2pTMCgw"; // Your Google Sheets API key
-  const spreadsheetId = "14y4Gl5-KFcKFQ2BG9YspVUFjNGmQJKiBLnXxr6iLpMU";
+  const spreadsheetId = "14y4Gl5-KFcKFQ2BG9YspVUFjNGmQJKiBLnXxr6iLpMU"; // Your Google Sheets ID
   const range = "display!A2:B58";
 
   useEffect(() => {

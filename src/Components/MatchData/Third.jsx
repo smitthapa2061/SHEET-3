@@ -3,7 +3,7 @@ import axios from "axios";
 import { motion } from "framer-motion";
 
 const apiKey = "AIzaSyAyX4Qmr0UqPpab1mzGvOQbi2am2pTMCgw"; // Your Google Sheets API key
-const spreadsheetId = "14y4Gl5-KFcKFQ2BG9YspVUFjNGmQJKiBLnXxr6iLpMU";
+const spreadsheetId = "14y4Gl5-KFcKFQ2BG9YspVUFjNGmQJKiBLnXxr6iLpMU"; // Your Google Sheets ID
 const range = "overall1!A2:G25"; // Range for overall data
 const range2 = "setup!A2:B10"; // Range for setup data (primary color)
 
